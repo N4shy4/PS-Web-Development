@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+        <title>Check-in sign up</title>
+        <style type="text/css">
+            *{margin:0;padding:0;border:0;list-style:none; }
+            body{background-color:#f1f1f1; font-size:12px;color:#000;}
+            .head{width:954px;height:37px;margin:0 auto;padding:19px 0;}
+            .help{width:100px;height:37px;line-height:37px;float:right;}
+            .help a:link,.help a:visited{font-size:14px;color:#1d50a2;text-decoration:none;margin-left:5px;float:right;margin-left:8px;}
+            .help a:hover{text-decoration:underline;}
+            .nav{width:954px;height:44px;margin:0 auto;}
+            .nav_left{width:43px;height:44px;background:url(images/nav_left.jpg) no-repeat;float:left;}
+            .nav_center{width:886px;height:44px;line-height:44px;font-size:14px;color:#fff;padding-left:20px;background:url(images/nav_center.jpg) repeat-x;float:left;}
+            .nav_right{width:5px;height:44px;background:url(images/nav_right.jpg) no-repeat;float:left;}
+            .content{width:950px;overflow:hidden;background-color:#fff;padding-top:47px;border:2px solid #f0f0f0;margin:0 auto;}            
+            dl{width:520px;overflow:hidden;line-height:32px;margin:0 auto;font-size:12px;}
+            dl dd{width:442px;height:30px;line-height:20px;color:#999;}
+            dl dt{width:70px;height:80px;text-align:right;}
+            dl dt,dl dd{float:left;}
+            span{color:red;}
+            input{width:312px;height:25px;line-height:50px;color:#999;background:url(images/input_bg.jpg) repeat-x;border:1px solid #999;}            
+            .one .input_1{width:195px;height:25px;line-height:25px;}    
+            strong{color:#000;}
+            select{border:1px solid #999;width:96px;}
+            .last{width:78px;height:175px;}
+            .agree_che{width:12px;height:12px;margin-right:5px;}
+            .agree{color:#999;}
+            a:link,a:visited{color:#1d50a2;text-decoration:none;}
+            a:hover{text-decoration:underline;}
+            .submit{width:104px;height:37px;cursor:pointer;}
+            .footer{width:954px;height:50px;line-height:50px;text-align:center;margin:0 auto;color:#999;}
+            .footer span{color:#999;;margin:0 8px;}
+            .footer a:link,.footer a:visited{color:#999;margin:0 4px;text-decoration:none;}
+            .footer a:hover{color:#1d50a2;text-decoration:underline;}            
+        </style>
+    </head>
+    <body>
+        <div class="head">
+            <div class="help"><a href="#">help</a><a href="#">feedback</a></div>
+        </div>
+        <div class="nav">
+            <div class="nav_left"></div>
+            <div class="nav_center"></div>
+            <div class="nav_right"></div>
+        </div>
+        <div class="content">
+            <form action="">
+            <dl class="one">
+                <dt><span>* </span>Email Address：</dt>
+                <dd class="input_dd">
+                    <input class="input_1" type="text" value=" " /><strong>@</strong>  
+                    <select>
+                        <option>gmail.com</option>
+                        <option>qq.com</option>
+                        <option></option>
+                    </select>
+                </dd>
+                <dd>6-18 characters, letters, numbers, underscores can be used.</dd>
+            </dl>
+            <dl>
+                <dt><span>* </span>password：</dt>
+                <dd>
+                    <input class="input_1" type="password" />                     
+                </dd>
+                <dd>6-1 characters, case sensitive.</dd>
+            </dl>
+            <dl>
+                <dt><span>* </span>Confirm Password：</dt>
+                <dd>
+                    <input type="password" />                     
+                </dd>
+                <dd>Please enter the password again.</dd>
+            </dl>
+            <dl>
+                <dt>phone：</dt>
+                <dd>
+                    <input type="text" />                     
+                </dd>
+                <dd>When the password is forgotten or stolen, the password can be retrieved via SMS.</dd>
+            </dl>
+            <dl>
+                <dt class="last"></dt>
+                <dd><input class="agree_che" type="checkbox" checked="check" />
+                    <span class="agree">agree“</span><a href="#">Terms of Service</a>
+                    <span class="agree">”and“</span><a href="#">Privacy protection and personal information use policy</a>”
+                </dd>
+                <dd>
+                    <input class="submit" type="button" value="sign up">
+                </dd>
+            </dl>
+        </form>
+        </div>
+        <div class="footer">
+            
+        </div>
+    </body>
+</html>
